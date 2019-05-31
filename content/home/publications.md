@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Publications"
 subtitle = ""
 
 [content]
@@ -23,7 +23,7 @@ subtitle = ""
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
-  # Filter posts by a taxonomy term.
+  # Filter posts by a taxonomy term. 
   [content.filters]
     tag = ""
     category = ""
@@ -36,7 +36,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 4
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -64,8 +64,10 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-+++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+# {{% alert note %}}
+# Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+# {{% /alert %}}
+
+
++++
